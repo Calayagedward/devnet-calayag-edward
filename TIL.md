@@ -5,6 +5,6 @@ just quick notes whenever something clicks or trips you up. Add to this
 anytime, not just during formal lessons.
 
 ## Sep. 23, 2026
-- Learned that a function "os.path.join" joins the one, two more path corectly.
+- Learned that a function "os.path.join" joins the one, two or more path corectly.
 
 
