@@ -28,7 +28,7 @@ KEY VOCABULARY
 - index: is a method where you can specify the data that you want to be print out. 
          But always remember that when you type the number position of a value inside the list; it's always starts from 0 
          and it counts from left to right.
-- iteration: 
+- iteration: is a process of repeatedly accessing the elements of a itterable value; like the numbers, string one at a time.
 (add more as needed)
 
 
@@ -38,7 +38,16 @@ MY OWN EXAMPLE(S)
 Write at least one working example below that you
 came up with yourself — not copied from class.
 """
-        
+list = ["Apple", "Banana", "Orange"]
+print(list[0]) # Output: Apple
+
+for i in list:
+    print(list) # Loop 3 times (3 Iterations)
+
+count = 0
+while count < 3: # Counts from 0 - 2
+    print(count)
+    count +=1
 # --- your code example goes here ---
 
 
@@ -48,7 +57,8 @@ A MISTAKE I MADE (or one I want to avoid)
 ============================================
 [what's something confusing or easy to get wrong
 about this topic?]
-
+In my experience, I always forgot the difference between those 2 loops (for/while), 
+and use them not knowing what's their functions and purpose.
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
