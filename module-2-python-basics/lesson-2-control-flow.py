@@ -1,7 +1,7 @@
 """
 Module 2 — Lesson 2: Control Flow (if / elif / else)
-Student: [your name]
-Date: [date]
+Student: Calayag, Edward P.
+Date: [Date]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
