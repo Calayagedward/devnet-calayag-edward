@@ -35,7 +35,16 @@ MY OWN EXAMPLE(S)
 Write at least one working example below that you
 came up with yourself — not copied from class.
 """
-        
+def make_coffee(flavor):
+    return flavor + " coffee is ready!"
+
+my_drink = make_coffee("Vanilla") 
+print(my_drink)
+
+print(make_coffee("Caramel"))
+
+# Output : Vanilla coffee is ready!
+# Output : Caramel coffee is ready!
 # --- your code example goes here ---
 
 
@@ -45,7 +54,9 @@ A MISTAKE I MADE (or one I want to avoid)
 ============================================
 [what's something confusing or easy to get wrong
 about this topic?]
-
+I sometimes forgot the exact syntax and steps to create and use a "Functions", 
+such as forgetting the colon (:) after the def line, the parameter and arguments purpose, 
+and the parenthesis of it. 
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
