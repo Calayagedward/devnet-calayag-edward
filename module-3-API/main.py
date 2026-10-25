@@ -55,7 +55,6 @@ def get_pokemon_data(pokemon_name):
         print(f"Details: {error}")
         return None
 
-
 def guessing_game():
     print("===================================")
     print("       POKEMON GUESSING GAME")
