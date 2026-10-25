@@ -16,7 +16,7 @@ print("====== WHO'S THAT POKEMON? ======")
 print("Guess the Pokemon using its height and weight!")
 print("You have 3 attempts.\n")
 
-# get Pokemon data from PokeAPI
+
 url = f"https://pokeapi.co/api/v2/pokemon/{ask}"
 
 try:
@@ -25,7 +25,7 @@ try:
     if response.status_code == 200:
         data = response.json()
 
-        # store the API data using your original dictionary style
+
         bmi = {
             ask: {
                 "height": data["height"],
